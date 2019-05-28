@@ -1,0 +1,104 @@
+2019-05-23 13:13:18,687 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 13:13:19,327 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 13:13:19,360 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 13:13:19,460 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 13:13:19,469 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 13:13:19,484 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 15:47:05,394 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 15:47:06,081 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 15:47:06,124 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 15:47:06,236 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 15:47:06,247 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 15:47:06,327 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 15:47:51,569 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 15:47:52,249 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 15:47:52,290 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 15:47:52,400 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 15:47:52,421 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 15:47:52,668 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 16:01:16,930 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 16:01:17,750 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:01:17,834 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:01:17,988 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 16:01:17,997 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 16:01:18,067 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 16:01:38,758 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 16:01:39,565 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:01:39,603 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:01:39,705 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 16:01:39,715 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 16:01:39,907 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 16:16:20,468 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 16:16:21,203 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:16:21,245 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:16:21,369 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 16:16:21,379 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 16:16:21,450 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-23 16:16:38,728 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-23 16:16:39,403 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:16:39,438 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:16:39,556 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/cust231
+2019-05-23 16:16:39,566 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-23 16:16:39,593 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 09:29:02,369 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-24 09:29:03,015 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:36:55,365 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-24 09:36:55,934 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:36:55,982 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 09:36:56,097 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 09:36:56,106 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-24 09:36:56,114 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 09:37:41,334 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-24 09:37:41,895 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:37:41,931 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 09:37:42,020 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 09:37:42,029 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-24 09:37:42,034 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 09:38:45,887 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-24 09:38:46,504 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:38:46,537 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 09:38:46,624 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 09:38:46,631 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-24 09:38:46,697 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 09:39:09,624 INFO purchase.PurchaseClient - PurchaseClient initializing...
+2019-05-24 09:39:10,218 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:39:10,255 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 09:39:10,345 INFO purchase.PurchaseClient - Connected. About to send message on topic purchase/store30/custA
+2019-05-24 09:39:10,362 INFO purchase.PurchaseClient - Message sent. Exiting.
+2019-05-24 09:39:10,369 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:34:23,083 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:34:23,757 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:34:23,789 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:34:23,879 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 12:34:23,887 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:34:24,071 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:34:36,783 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:34:37,469 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:34:37,500 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:34:37,595 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 12:34:37,605 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:34:37,616 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:34:47,947 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:34:48,642 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:34:48,676 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:34:48,778 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 12:34:48,787 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:34:48,795 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:34:55,490 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:34:56,158 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:34:56,189 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:34:56,286 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 12:34:56,293 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:34:56,308 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:35:05,110 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:35:05,789 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:35:05,821 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:35:05,916 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store21/custA
+2019-05-24 12:35:05,924 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:35:05,937 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)
+2019-05-24 12:35:13,024 INFO geek2.PurchaseClient - PurchaseClient initializing...
+2019-05-24 12:35:13,693 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:35:13,725 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:35:13,830 INFO geek2.PurchaseClient - Connected. About to send message on topic purchase/store30/custA
+2019-05-24 12:35:13,837 INFO geek2.PurchaseClient - Message sent. Exiting.
+2019-05-24 12:35:13,845 INFO impl.TcpClientChannel - Channel Closed (smfclient 2)

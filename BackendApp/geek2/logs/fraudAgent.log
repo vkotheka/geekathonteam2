@@ -1,0 +1,58 @@
+2019-05-23 15:46:51,085 INFO purchase.AbstractAgent - ====================================================================================
+  _____                    _    _                    _   
+ |  ___| __ __ _ _   _  __| |  / \   __ _  ___ _ __ | |_ 
+ | |_ | '__/ _` | | | |/ _` | / _ \ / _` |/ _ \ '_ \| __|
+ |  _|| | | (_| | |_| | (_| |/ ___ \ (_| |  __/ | | | |_ 
+ |_|  |_|  \__,_|\__,_|\__,_/_/   \_\__, |\___|_| |_|\__|
+                                    |___/                
+
+2019-05-23 15:46:51,834 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 15:46:51,882 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 15:47:06,300 INFO purchase.Model - loading model from json.
+2019-05-23 15:47:06,313 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 15:47:52,422 INFO purchase.Model - loading model from json.
+2019-05-23 15:47:52,423 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 16:01:07,321 INFO purchase.AbstractAgent - ====================================================================================
+  _____                    _    _                    _   
+ |  ___| __ __ _ _   _  __| |  / \   __ _  ___ _ __ | |_ 
+ | |_ | '__/ _` | | | |/ _` | / _ \ / _` |/ _ \ '_ \| __|
+ |  _|| | | (_| | |_| | (_| |/ ___ \ (_| |  __/ | | | |_ 
+ |_|  |_|  \__,_|\__,_|\__,_/_/   \_\__, |\___|_| |_|\__|
+                                    |___/                
+
+2019-05-23 16:01:08,132 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:01:08,169 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:01:18,081 INFO purchase.Model - loading model from json.
+2019-05-23 16:01:18,103 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 16:01:39,718 INFO purchase.Model - loading model from json.
+2019-05-23 16:01:39,719 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 16:16:09,125 INFO purchase.AbstractAgent - ====================================================================================
+  _____                    _    _                    _   
+ |  ___| __ __ _ _   _  __| |  / \   __ _  ___ _ __ | |_ 
+ | |_ | '__/ _` | | | |/ _` | / _ \ / _` |/ _ \ '_ \| __|
+ |  _|| | | (_| | |_| | (_| |/ ___ \ (_| |  __/ | | | |_ 
+ |_|  |_|  \__,_|\__,_|\__,_/_/   \_\__, |\___|_| |_|\__|
+                                    |___/                
+
+2019-05-23 16:16:09,921 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 16:16:09,958 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 16:16:21,452 INFO purchase.Model - loading model from json.
+2019-05-23 16:16:21,468 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 16:16:39,596 INFO purchase.Model - loading model from json.
+2019-05-23 16:16:39,596 INFO purchase.Model - loaded 1 products purchases
+2019-05-23 16:17:01,765 INFO purchase.FraudAgent - cust231's last purchase was as the same location. This is OK. 
+2019-05-24 09:38:12,680 INFO purchase.AbstractAgent - ====================================================================================
+  _____                    _    _                    _   
+ |  ___| __ __ _ _   _  __| |  / \   __ _  ___ _ __ | |_ 
+ | |_ | '__/ _` | | | |/ _` | / _ \ / _` |/ _ \ '_ \| __|
+ |  _|| | | (_| | |_| | (_| |/ ___ \ (_| |  __/ | | | |_ 
+ |_|  |_|  \__,_|\__,_|\__,_/_/   \_\__, |\___|_| |_|\__|
+                                    |___/                
+
+2019-05-24 09:38:13,364 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 09:38:13,397 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 09:38:46,705 INFO purchase.Model - loading model from json.
+2019-05-24 09:38:46,716 INFO purchase.Model - loaded 1 products purchases
+2019-05-24 09:39:10,371 INFO purchase.Model - loading model from json.
+2019-05-24 09:39:10,371 INFO purchase.Model - loaded 1 products purchases
+2019-05-24 09:39:25,033 INFO purchase.FraudAgent - custA's last purchase was less than 5 minutes ago, from a different location. Possible fraud!

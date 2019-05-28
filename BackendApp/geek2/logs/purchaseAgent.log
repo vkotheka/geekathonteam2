@@ -1,0 +1,51 @@
+2019-05-23 13:12:21,433 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 13:12:21,472 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-23 13:45:24,250 INFO purchase.AbstractAgent - ====================================================================================
+  ____                 _                       _                    _   
+ |  _ \ _   _ _ __ ___| |__   __ _ ___  ___   / \   __ _  ___ _ __ | |_ 
+ | |_) | | | | '__/ __| '_ \ / _` / __|/ _ \ / _ \ / _` |/ _ \ '_ \| __|
+ |  __/| |_| | | | (__| | | | (_| \__ \  __// ___ \ (_| |  __/ | | | |_ 
+ |_|    \__,_|_|  \___|_| |_|\__,_|___/\___/_/   \_\__, |\___|_| |_|\__|
+                                                   |___/                
+
+2019-05-23 13:45:25,005 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-23 13:45:25,045 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:33:57,811 INFO geek2.AbstractAgent - ====================================================================================
+  ____                 _                       _                    _   
+ |  _ \ _   _ _ __ ___| |__   __ _ ___  ___   / \   __ _  ___ _ __ | |_ 
+ | |_) | | | | '__/ __| '_ \ / _` / __|/ _ \ / _ \ / _` |/ _ \ '_ \| __|
+ |  __/| |_| | | | (__| | | | (_| \__ \  __// ___ \ (_| |  __/ | | | |_ 
+ |_|    \__,_|_|  \___|_| |_|\__,_|___/\___/_/   \_\__, |\___|_| |_|\__|
+                                                   |___/                
+
+2019-05-24 12:33:58,437 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:33:58,484 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:33:58,588 INFO geek2.AbstractAgent - This agent is now connected to the Solace broker, awaiting purchase messages.
+2019-05-24 12:34:11,805 INFO geek2.AbstractAgent - ====================================================================================
+  ____                 _                       _                    _   
+ |  _ \ _   _ _ __ ___| |__   __ _ ___  ___   / \   __ _  ___ _ __ | |_ 
+ | |_) | | | | '__/ __| '_ \ / _` / __|/ _ \ / _ \ / _` |/ _ \ '_ \| __|
+ |  __/| |_| | | | (__| | | | (_| \__ \  __// ___ \ (_| |  __/ | | | |_ 
+ |_|    \__,_|_|  \___|_| |_|\__,_|___/\___/_/   \_\__, |\___|_| |_|\__|
+                                                   |___/                
+
+2019-05-24 12:34:12,514 INFO impl.TcpClientChannel - Connecting to host 'orig=192.168.2.11, host=192.168.2.11' (host 1 of 1, smfclient 2, attempt 1 of 1, this_host_attempt: 1 of 1)
+2019-05-24 12:34:12,555 INFO impl.TcpClientChannel - Connected to host 'orig=192.168.2.11, host=192.168.2.11' (smfclient 2)
+2019-05-24 12:34:12,633 INFO geek2.AbstractAgent - This agent is now connected to the Solace broker, awaiting purchase messages.
+2019-05-24 12:34:24,015 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:24,021 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:37,612 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:37,613 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:37,643 INFO geek2.FraudAgent - custA's last purchase was as the same location. This is OK. 
+2019-05-24 12:34:48,789 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:48,790 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:48,791 INFO geek2.FraudAgent - custA's last purchase was as the same location. This is OK. 
+2019-05-24 12:34:56,302 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:56,303 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:34:56,322 INFO geek2.FraudAgent - custA's last purchase was as the same location. This is OK. 
+2019-05-24 12:35:05,927 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:35:05,928 INFO geek2.AbstractAgent - Message received on purchase/store21/custA
+2019-05-24 12:35:05,933 INFO geek2.FraudAgent - custA's last purchase was as the same location. This is OK. 
+2019-05-24 12:35:13,841 INFO geek2.AbstractAgent - Message received on purchase/store30/custA
+2019-05-24 12:35:13,842 INFO geek2.AbstractAgent - Message received on purchase/store30/custA
+2019-05-24 12:35:13,851 INFO geek2.FraudAgent - custA's last purchase was less than 5 minutes ago, from a different location. Possible fraud!
