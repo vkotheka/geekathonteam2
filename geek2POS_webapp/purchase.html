@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Geek 2 Global Store POS</title>
+  <meta name="description" content="Management interface for Solace Message Routers" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+  <script src="lib/solclient.js"></script>
+</head>
+
+<body onload="connect()">  
+	<script>
+     
+    </script>
+   	<script type="text/javascript">
+	var session = null;
+	var subscribed = false;
+	function connect() {
+			var factoryProps = new solace.SolclientFactoryProperties();
+			factoryProps.profile = solace.SolclientFactoryProfiles.version10;
+			solace.SolclientFactory.init(factoryProps);
+			
+			//mr-jfgwkefxued.messaging.solace.cloud msgvpn-jfgwkefxudj solace-cloud-client qitcrr8e1c0ronnm0f306ebbdn 
+			var hosturl = "http://mr-jfgwkefxued.messaging.solace.cloud";
+			var username = "solace-cloud-client";
+			var pass = "qitcrr8e1c0ronnm0f306ebbdn";
+			var vpn = "msgvpn-jfgwkefxudj";
+			//var session = null;
+			try {
+				session = solace.SolclientFactory.createSession({
+                // solace.SessionProperties
+                url:      hosturl,
+                vpnName:  vpn,
+                userName: username,
+                password: pass,
+			});
+			session.on(solace.SessionEventCode.MESSAGE, function (message) {
+					//alert('Received message: "' + message.getBinaryAttachment() + '", details:\n' + message.dump());
+					onNoticeFromMicroservice(message.getBinaryAttachment());
+					});
+			session.connect();
+			} catch (error) {
+				alert(error.toString());
+			}
+			
+			//alert("connected");
+		}
+		
+		function sub(topic) {
+			try {
+				//alert("subscribing");
+				   
+                    session.subscribe(
+                        solace.SolclientFactory.createTopicDestination(topic),
+                        false, // generate confirmation when subscription is added successfully
+                        "confirm", // use topic name as correlation key
+                        10000 // 10 seconds timeout for this operation
+                    );
+					//alert("subscribed");
+                } catch (error) {
+                    alert(error.toString());
+                }
+		}
+		
+  	    function submitForm(form) {
+			
+		   if (subscribed == false) {
+				sub("confirm/>");
+				sub("fraud/>");
+				sub("loyalty/>");
+		   }
+				
+			//alert("in submit");
+			//var payload = new Object();
+			//payload.total = form.amount.value;
+			//alert("in submit2");
+			
+			//var purchaseObj = new Object();
+			//purchaseObj.product = form.product.value;
+			//purchaseObj.amount = form.amount.value;
+			//alert("in submit3");
+			
+			//payload.products = new Object();
+			//payload.products[0] = purchaseObj; 
+			//alert("in submit4");
+			
+			//var payloadText = JSON.stringify(payload);
+			//alert(payloadText);
+			
+			var manual = "{\"total\":" + form.amount.value + ",\"purchases\":[{";
+			manual += "\"product\": \"" + form.product.value + "\",";
+			manual += "\"amount\": \"" + form.amount.value + "\"}]}";
+			//alert(manual);
+			
+			
+			
+			var topic = "purchase/" + form.location.value + "/" + form.customerId.value;
+			//alert(topic);
+			
+            var message = solace.SolclientFactory.createMessage();
+            message.setDestination(solace.SolclientFactory.createTopicDestination(topic));
+            message.setBinaryAttachment(manual);
+            message.setDeliveryMode(solace.MessageDeliveryModeType.DIRECT);
+            //publisher.log('Publishing message "' + messageText + '" to topic "' + publisher.topicName + '"...');
+            try {
+                session.send(message);
+                //alert('Message published.');
+            } catch (error) {
+                alert(error.toString());
+            }
+		}
+		
+		function extractMessage(jsonobj) {
+				var lookFor = "message\":\"";
+				var nStart = jsonobj.indexOf(lookFor);
+				var nStart = nStart  + lookFor.length;
+				var nEnd = jsonobj.indexOf(",", nStart);
+				jsonobj = jsonobj.substring(nStart, nEnd);
+				//alert(jsonobj);
+				return jsonobj;
+		}
+		function onNoticeFromMicroservice(jsonobj) {
+			try {
+				//alert("about to process");
+				
+				var end = jsonobj.length;
+				var start = 3;
+				jsonobj = jsonobj.substring(start, end);
+				//alert(jsonobj);
+				
+				var textMessage = jsonobj; //extractMessage(jsonobj);
+				
+				
+				//var obj = JSON.parse(jsonobj);
+				//var textMessage = obj.message;
+				var content = document.getElementById("feedback").innerHTML;
+				content = content + "<br/>" + textMessage + "<hr/>";
+				document.getElementById("feedback").innerHTML = content;
+            } catch (error) {
+                alert(error.toString());
+            }
+		}
+    </script> <div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <table>
+		  <tr ><td><img width=200 src="images/geek2.png" alt="&quot;Solace&quot;"/></td><td><h1>Geek 2 Global Store POS</h1></td>
+		  </tr>
+		</table>
+
+
+ 
+        <div id="menubar">
+          <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li  class="selected"><a href="purchase.html">Point of Sale</a></li>
+          </ul>
+        </div><!--close menubar-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+	<div id="site_content">	
+
+    <div id="Div1">	
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+		  
+		  
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+       </div><!--close sidebar_container-->	
+          
+	   <table><tr style="height:500px; vertical-align:top"><td>
+	  <div id="content">
+        <div class="content_item">
+		<form id="form1" onsubmit="submitForm()" class="form_settings">
+		  Location:<br>
+		  <input type="text" name="location" value="Store 1"><br><br>
+		  Product:<br>
+		  <input type="text" name="product"><br><br>
+		  Amount:<br>
+		  <input type="text" name="amount"><br><br>
+		  Customer ID:<br>
+		  <input type="text" name="customerId" value="123456"><br><br>
+		  <input type="button" style="background-color:grey" value="Buy It!" onclick="submitForm(this.form)">
+		</form>
+		</div><!--close sidebar-->
+      </div><!--close content-->
+      </td>
+	<td><div id="feedback" style="hieght:700px"></div></td></tr></table>
+    
+	</div><!--close site_content-->
+  
+  </div><!--close main-->
+  <div id="footer">
+    Website by Geekathon Team 2</a>
+  </div><!--close footer-->   
+  
+  </body>
+</html>
